@@ -1,0 +1,11 @@
+# internal css
+- div tag:-  serving as container style. it's easily customized using class and id attributes. div tag is block-level tag.
+- class:- in internal css class is defined in the head section using style element. clas is defined by the (.)
+- id:- in internal css id is defined in the head section using style element. id is defined by the #
+- justify-content property:-it is used the item when the items do not use all available space on the main axis
+  justifiy-content property:space-evenly; or space-between; or space-around;
+- hover tag:- hover tag is used to select elements when your mouse over them.
+  syntax : tag:hover{property:value;}
+- text-decoration property:- its specifies the decoration added to the text.
+  syntax for shortand property: text-decoration:text-decoration-line text-decoration-color text-decoration-style text-decoration-thickness|initail|inherit;
+- text-align property: its specifies the horizontal alignment of text in an element. it can be left,right,center,justify;
