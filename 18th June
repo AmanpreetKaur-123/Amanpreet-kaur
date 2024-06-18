@@ -1,5 +1,5 @@
 # internal css
-- div tag:-  serving as container style. it's easily customized using class and id attributes. div tag is block-level tag.
+- div tag:- serving as container style. it's easily customized using class and id attributes. div tag is block-level tag.
 - class:- in internal css class is defined in the head section using style element. clas is defined by the (.)
 - id:- in internal css id is defined in the head section using style element. id is defined by the #
 - justify-content property:-it is used the item when the items do not use all available space on the main axis
