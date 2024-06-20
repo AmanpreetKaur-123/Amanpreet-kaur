@@ -14,6 +14,5 @@
 - auto:If overflow is clipped, a scroll-bar should be added to see the rest of the content
   overflow:auto;
 - initial:Sets this property to its default value. Read about initial
-  overflow:intial;
 - inherit:Inherits this property from its parent element. Read about inherit
-  overflow:inherit;
+  
