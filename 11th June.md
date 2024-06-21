@@ -1,5 +1,4 @@
 # implementation of html all tags
-
 - formating tags like mark tag , bold tag , delete tag ,italic tag and underline tag
 - for movement marquee tag(up,down,right)
 - image tag online and offline mode
