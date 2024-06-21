@@ -4,7 +4,7 @@
 - properties:colour, border
 ### Video /map Embed
 #### Anchor Tag
-- <a href=""> </a>
+<a href=""> </a>
 ##### Margin & Padding (both concepts)
 - margin-left.   padding- left
 - margin-right.  padding-right
