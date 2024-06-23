@@ -1,0 +1,117 @@
+Training Day10 report
+20 June 2024
+Revision of previous topic
+•	hover
+•	div
+•	class and id
+CSS Overflow Properties with syntax:
+•	visible:The overflow is not clipped. It renders outside the element's box. This is default.
+overflow:visible;
+•	hidden:The overflow is clipped, and the rest of the content will be invisible. Content can be scrolled programmatically (e.g. by setting scrollLeft or scrollTo())
+overflow:hidden;
+•	clip:The overflow is clipped, and the rest of the content will be invisible. Forbids scrolling, including programmatic scrolling.
+overflow:clip;
+•	scroll:The overflow is clipped, but a scroll-bar is added to see the rest of the content
+overflow:scroll;
+•	auto:If overflow is clipped, a scroll-bar should be added to see the rest of the content
+overflow:auto;
+•	initial:Sets this property to its default value. Read about initial
+•	inherit:Inherits this property from its parent element. Read about inherit
+
+
+
+ 
+#overflow
+{
+display:flex;/*in one line*/
+justify-content:space-between;/*for space between the cards*/ margin-top: 50px;
+}
+#overflow1
+{
+display:flex;/*in one line*/
+justify-content:space-between;/*for space between the cards*/ margin-top: 50px;
+}
+
+#overflow2
+{
+display:contents;/*in one line*/
+justify-content:space-between;/*for space between the cards*/ margin-top: 50px;
+}
+body {
+background-color: lavender;
+}
+p{
+color:black;
+}
+#visible {
+border:6px solid green; background-color: pink; overflow: visible; width:300px;
+height: 50px;
+}
+#hidden {
+border:6px solid green; background-color: aquamarine; overflow: hidden; width:300px;
+height: 70px;
+}
+#scroll {
+border:3px solid green; background-color: antiquewhite; overflow: scroll;
+width:300px; height: 100px;
+ 
+}
+#auto {
+border:6px solid green; background-color: aqua; overflow: auto; width:300px;
+height: 100px;
+}
+
+#clip {
+border:6px solid green; background-color: blueviolet; overflow: clip;
+width:300px; height: 100px;
+}
+</style>
+</head>
+<body>
+<ol>
+<div id="overflow">
+<h2>VISIBLE</h2>
+<li><div id="visible">
+<p>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti quaerat rerum facilis optio ex esse eaque corporis iste numquam ipsa hic, expedita distinctio dolores beatae voluptatem alias velit quasi voluptatibus.
+</p>
+</div></li>
+<br><br>
+<h2>HIDDEN</h2>
+<li><div id="hidden">
+<p>
+Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos itaque autem aut libero molestiae explicabo repellendus. Dolore mollitia exercitationem quia error nulla reprehenderit maiores, facilis corporis voluptatum ducimus? Reiciendis sunt repudiandae velit possimus explicabo repellendus quia earum ullam tempore sed.
+</p>
+</div></li>
+<br><br>
+</div>
+<div id="overflow1">
+<h2>SCROLL</h2>
+ 
+<li><div id="scroll">
+<p>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ut mollitia quibusdam quam tempora, rerum inventore molestiae magnam possimus enim placeat facere iusto aperiam libero voluptas illo tempore odit. Voluptatum velit fuga et, nam tenetur amet harum quo ipsam libero esse itaque cumque magnam debitis suscipit consectetur adipisci eius dolores?
+</p>
+</div></li>
+<br><br>
+<h2>AUTO</h2>
+<li><div id="auto">
+<p>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas autem commodi debitis aperiam beatae porro pariatur eos, neque facere architecto velit culpa nesciunt tempore cupiditate itaque temporibus excepturi sed mollitia! Et perspiciatis aliquam eos labore enim alias harum delectus architecto iusto facere? Labore, nihil vel.
+</p>
+</div></li>
+<br><br>
+</div>
+<div id="overflow2">
+<h2>CLIP</h2>
+<li><div id="clip">
+<p>
+Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non facere blanditiis deserunt sint provident possimus et quae minus incidunt repellendus ipsam recusandae expedita facilis dolor molestiae consequatur, nemo distinctio doloribus! Error totam dolorum est porro!
+</p>
+</div></li>
+<br><br><br><br>
+</div>
+</div>
+</ol>
+</body>
+</html>
