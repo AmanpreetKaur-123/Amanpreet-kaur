@@ -1,0 +1,114 @@
+Training Day7 report
+                              17 June 2024 
+Internal CSS
+Internal CSS is a set of style 
+To use internal CSS, include CSS rules within a <style> tag inside the <head> tag Syntax:-  tag{property: value;}
+            tag,tag,tag...{property: value;}
+The float property specifies whether an element should float to the left, right, or  not at all.
+ There are two types of list 
+ Ordered and Unordered list 
+ there syntax is list-style-type:
+ ID's:- only one element is want, or we can say that there is a unique id , id is defined by #
+Class:- class can be assigned multiple element on page , class is defined by .
+  Id is unique but class not 
+The position property specifies the type of positioning method used in an element. In position it use the attribute position. 
+There are five types of position:
+ Static
+ Relative
+  Fixed
+  Absolute
+  Sticky
+Display: display properly specify the display behaviour.
+   Synta :- display:value;
+  The value can be following type:
+   • inline (eg <span>)
+   • block (eg <p>)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>first page</title>
+    <style>
+        body
+        {
+         background-color:pink;
+        }
+        h1
+        {
+          color:red;
+          text-align:center;
+          font-family:arial;
+        }
+        ul
+        {
+            /*display:flex;*/
+            list-style-type:square;
+        }
+        li
+        {
+            /*display:inline;*/
+            /*display:block;*/
+        }
+        .main
+        {
+            display:flex;
+            margin-left:30px;
+        }
+        .static
+        {
+            border: 2px solid green;
+            /*position: static;*/
+            /*position: relative;
+            right: 5px;*/
+           /*position:fixed;
+           right:0;
+           top: 0;
+           width:30% ;
+           background-color: white;*/
+           /*position:fixed;
+           left:0;
+           bottom: 0;
+           width:30% ;
+           background-color: white;*/
+           position:sticky;
+           top: 0;
+           background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <b><h1>STARS</h1></b>
+   <br>
+    <hr>
+    <p>
+        <div class="main">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCFLUr0WszjK5cqEoXGtfpWh6k27K2yQfbNA&s" height="50%" width="50%"/>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCFLUr0WszjK5cqEoXGtfpWh6k27K2yQfbNA&s" height="50%" width="50%"/>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCFLUr0WszjK5cqEoXGtfpWh6k27K2yQfbNA&s" height="50%" width="50%"/>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCFLUr0WszjK5cqEoXGtfpWh6k27K2yQfbNA&s" height="50%" width="50%"/>
+        </div>
+        <!--<div class="static">
+            A star is a luminous spheroid of plasma held together by self-gravity.[1] The nearest star to Earth is the Sun.
+        </div>-->
+        <h2>A star is a luminous spheroid of plasma held together by self-gravity.[1] The nearest star to Earth is the Sun. Many other stars are visible to the naked eye at night; their immense distances from Earth make them appear as fixed points of light. The most prominent stars have been categorised into constellations and asterisms, and many of the brightest stars have proper names. Astronomers have assembled star catalogues that identify the known stars and provide standardized stellar designations.
+        A star is a luminous spheroid of plasma held together by self-gravity.[1] The nearest star to Earth is the Sun. Many other stars are visible to the naked eye at night; their immense distances from Earth make them appear as fixed points of light. The most prominent stars have been categorised into constellations and asterisms, and many of the brightest stars have proper names. Astronomers have assembled star catalogues that identify the known stars and provide standardized stellar designations.
+        A star is a luminous spheroid of plasma held together by self-gravity.[1] The nearest star to Earth is the Sun. Many other stars are visible to the naked eye at night; their immense distances from Earth make them appear as fixed points of light. The most prominent stars have been categorised into constellations and asterisms, and many of the brightest stars have proper names. Astronomers have assembled star catalogues that identify the known stars and provide standardized stellar designations.
+        <div class="static">
+            A star is a luminous spheroid of plasma held together by self-gravity.[1] The nearest star to Earth is the Sun.
+        </div>
+        A star is a luminous spheroid of plasma held together by self-gravity.[1] The nearest star to Earth is the Sun. Many other stars are visible to the naked eye at night; their immense distances from Earth make them appear as fixed points of light. The most prominent stars have been categorised into constellations and asterisms, and many of the brightest stars have proper names. Astronomers have assembled star catalogues that identify the known stars and provide standardized stellar designationsA star is a luminous spheroid of plasma held together by self-gravity.[1] The nearest star to Earth is the Sun. Many other stars are visible to the naked eye at night; their immense distances from Earth make them appear as fixed points of light. The most prominent stars have been categorised into constellations and asterisms, and many of the brightest stars have proper names. Astronomers have assembled star catalogues that identify the known stars and provide standardized stellar designations</h2>
+    </p>
+    <hr><br><br><br><br><br><br><br><br>
+    <h2><b>Types of stars</b></h2>
+    <ul>
+        <li>White dwarf</li>
+        <li>Red dwarf</li>
+        <li>Main sequence stars</li>
+        <li>Brown dwarf</li>
+        <li>Neutron star</li>
+        <li>Red giant star</li>
+        <li>Dwarf</li>
+        <li>Protostar</li>
+        <li>Black Holes</li>
+    </ul>
+</body>
+</html>
